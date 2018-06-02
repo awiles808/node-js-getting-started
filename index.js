@@ -2,6 +2,8 @@ const cool = require('cool-ascii-faces')
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
+// const mongoose = require('mongoose'),
+// const expressLayouts = require('express-ejs-layouts');
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
